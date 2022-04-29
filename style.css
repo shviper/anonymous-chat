@@ -1,0 +1,30 @@
+
+
+body{
+    background: black;
+    color: rgb(255, 0, 0);
+    /* overflow: hidden; */
+}
+
+input{
+    background-color: black;
+    border: none;
+}
+input::placeholder{
+    color: aqua;
+}
+/* pre{
+    color: aqua;
+} */
+#box{
+    left: auto;
+}
+p{
+    font-family: Consolas;
+    font-size: 15px;
+}
+p::before {
+    content: ">> : ";
+    color: red;
+    font-family: Consolas;
+  }
