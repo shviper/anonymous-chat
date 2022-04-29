@@ -22,6 +22,7 @@ input::placeholder{
 p{
     font-family: Consolas;
     font-size: 15px;
+    color : green;
 }
 p::before {
     content: ">> : ";
