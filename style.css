@@ -24,8 +24,4 @@ p{
     font-size: 15px;
     color : green;
 }
-p::before {
-    content: ">> : ";
-    color: red;
-    font-family: Consolas;
-  }
+
