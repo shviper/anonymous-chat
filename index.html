@@ -40,7 +40,7 @@ _____    ____   ____   ____ ___.__. _____   ____  __ __  ______           ____ |
             channel = '10chat-demo';
         pubnub.addListener({
             message: function(obj) {
-                box.innerHTML = ('' + obj.message).replace(/[<>]/g, '') + '<br>' + box.innerHTML
+                box.innerHTML = ('>>' + obj.message).replace(/[<>]/g, '') + '<br>' + box.innerHTML
             }
         });
         pubnub.subscribe({
